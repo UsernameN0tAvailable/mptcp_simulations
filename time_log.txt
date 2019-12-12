@@ -1,0 +1,16 @@
+calling : constructor!!
+calling : constructor!!
+calling : constructor!!
+calling : constructor!!
+calling : constructor!!
+Last ones : 
+11.2327
+921072
+11.2268
+1173072
+11.2463
+1047072
+11.248
+1173072
+11.232
+984072
