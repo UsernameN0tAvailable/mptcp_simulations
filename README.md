@@ -9,11 +9,6 @@ The aforementioned implementation does not have an On/Off application for the Mp
 ## Simulation Scenarios
 The implemented simulation scenarios are found in the scratch folder.
 
-### Network 
-The implemented scenarios all use the same Network:
-
-![alt text](https://github.com/UsernameN0tAvailable/mptcp_simulations/blob/master/sim_scenario_2.jpg "Network:")
-
 ### Simulation Scripts
 In folder scratch/MixedBulkSend, the mixed scenario is implemented, which make use of 2 MPTCP and 2 TCP connections which transfer data generated from a Bulk Send application.
 
