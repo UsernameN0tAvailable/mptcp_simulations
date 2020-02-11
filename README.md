@@ -65,9 +65,9 @@ they represents the parameters used for execution (see above in the Execution se
 The content of the text files represents the following: ````<average throughput[bits]>   <standard deviation>````.
 The average and the standard deviation of the throughput of four simulations with the same parameters but different execution seeds.
 #### Congestion Window Results
-The congestion window results can be found in the folder RESULTS/CWND. The CWND folder contains the congestion window data in three files: 
-total congestion window of all fifteen subflows of one MPTCP connection at one host in the Bulk Send Application scenario, the total congestion window of the fifteen
- MPTCP subflows of one connection at one host in the On/Off Application scenario and the congestion window of one single subflow in the Bulk Send Application
+The congestion window results can be found in the folder RESULTS/CWND. The CWND folder contains the congestion window data plotted in the thesis, namely: 
+the total congestion window of all fifteen subflows of one MPTCP connection in the Bulk Send Application scenario, the total congestion window of all fifteen
+ MPTCP subflows of one connection in the On/Off Application scenario and the congestion window of one single subflow in the Bulk Send Application
 scenario.
 
 The content of the text files represents the following: ````<time stamp [seconds]> <congestion window size [bytes]>````
