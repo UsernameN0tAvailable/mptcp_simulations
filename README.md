@@ -62,7 +62,7 @@ The [MIXED_ON_OFF](https://github.com/UsernameN0tAvailable/mptcp_simulations/tre
 All four folders contain the results of the following four modes: MODE_1 contains the results obtained with the BER Error Model, MODE_2 the ON/OFF Error Model 
 results with the OFF phase bit error ratio modulation, MODE_3 the results obtained with the ON/OFF plus BER Error Model and
 MODE_4 the results obtained with the ON/OFF Error Model with the mean ON phase modulation. The text file names are descriptive, in that 
-they represents the parameters used for execution (see above in the [Execution](#Execution) section for the description and the use of the parameters).
+they represent the parameters used for execution (see above in the [Execution](#Execution) section for the description and the use of the parameters).
 
 The content of the text files represents the following: ````<average throughput[bits]>   <standard deviation>````.
 The average and the standard deviation of the throughput of four simulations with the same parameters but different execution seeds.
