@@ -1,4 +1,4 @@
-# MPTCP Simulations
+# MPTCP And Mixed Scenarios Simulations
 
 This repository makes use of the NS3 MPTCP implementation found [here](https://github.com/mkheirkhah/amp), which is based on ns3-19.
 All the documentation about the original implementation is also valid for this repository.
@@ -7,7 +7,7 @@ All the documentation about the original implementation is also valid for this r
 The aforementioned implementation does not have an On/Off Application for the MpTcp protocol. Therefore, in this repository an we implement an On/Off Application, which is located in src/applications/model/mp-tcp-on-off-application.cc and the header file with the respective documentation is found in src/applications/model/mp-tcp-on-off-application.h . The On/Off Application is the only addition to the original implementation.
 
 ## Simulation Scenarios
-The implemented simulation scenarios are found in the scratch folder.
+The implemented simulation scenarios and the respective comments to the code are found in the scratch folder.
 
 ### Simulation Scripts
 In folder scratch/MixedBulkSend, the mixed scenario is implemented, which make use of 2 MPTCP and 2 TCP connections which transfer data generated from a Bulk Send Application.
